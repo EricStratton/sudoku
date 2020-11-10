@@ -6,9 +6,15 @@ describe('Matrix', () => {
     const newMatrix = new Matrix();
     expect(newMatrix.createRows()).toEqual([0, 0, 0, 0, 0, 0, 0, 0, 0])
   });
+
+  test('it should create a complete 9x9 matrix', () => {
+    const newMatrix = new Matrix();
+    newMatrix.createRows();
+    expect(newMatrix.createMatrix()).toEqual([[0, 0, 0, 0, 0, 0, 0, 0, 0],[0, 0, 0, 0, 0, 0, 0, 0, 0],[0, 0, 0, 0, 0, 0, 0, 0, 0],[0, 0, 0, 0, 0, 0, 0, 0, 0],[0, 0, 0, 0, 0, 0, 0, 0, 0],[0, 0, 0, 0, 0, 0, 0, 0, 0],[0, 0, 0, 0, 0, 0, 0, 0, 0],[0, 0, 0, 0, 0, 0, 0, 0, 0],[0, 0, 0, 0, 0, 0, 0, 0, 0]])
+  });
 });
 
-
+  
 
 
 

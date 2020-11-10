@@ -5,29 +5,41 @@
 
 
 
-export default function Matrix () {
+export default function Matrix() {
   this.rows = [];
+  this.completeMatrix = [];
 }
 
 Matrix.prototype.createRows = function () {
-  for (let i = 0; i < 9; i ++) {
+  for (let i = 0; i < 9; i++) {
     this.rows.push(0);
   }
   return this.rows;
+}
+
+Matrix.prototype.createMatrix = function () {
+  for (let j = 0; j < 9; j++) {
+    this.completeMatrix.push(this.rows);
+  }
+  return this.completeMatrix;
 };
 
-
-
-
-
+// const newMatrix = new Matrix();
+// newMatrix.createRows();
+// newMatrix.createMatrix();
 
 
 // Matrix.prototype.makeRows = function () {
-  
+
 // }
-// row.forEach(function(i){ i=1 j=0
+// for (let i=0;i<9;i++){
+//  for(let j=0;j<9; j++){
+ //   this.completeMatrix[i][j].push(rows);
+ //i=0 completeMatrix[0]
+ // }
+//}
 //   column.forEach(function(j){
-//     matrix[i][j]=0;
+//     this.completeMatrix.push(0);
 //
 //   })
 // })
