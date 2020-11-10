@@ -21,13 +21,14 @@ Matrix.prototype.createRows = function () {
 
 
 
-// matrix=new Matrix(9,9);
+
 // Matrix.prototype.makeRows = function () {
   
 // }
 // row.forEach(function(i){ i=1 j=0
 //   column.forEach(function(j){
 //     matrix[i][j]=0;
+//
 //   })
 // })
 // sudoku= math.matrix([[0, 0, 0, 0, 0, 0, 0, 0, 0], 

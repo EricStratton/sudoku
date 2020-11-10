@@ -10,13 +10,6 @@ describe('Matrix', () => {
 
 
 
-  // test('it should create rows and columns', () => {
-  //   //const rows = new Rows();
-  //   let sudoku = new Sudoku();
-  //   expect(sudoku.rows).toEqual([]);
-  //   expect(sudoku.columns).toEqual([ [], [], [], [], [], [], [], [], [] ]);
-  // });
-
 
 
 
